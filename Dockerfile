@@ -52,6 +52,7 @@ ENV TIME_REAL=7200
 ENV DB_FILTER=False
 ENV EXTRA_ARGS=''
 ENV LIST_DB=True
+ENV MAX_CRON_THREADS=1
 
 VOLUME ["/opt/", "/etc/odoo"]
 ENTRYPOINT ["/opt/odoo/entrypoint.sh"]
